@@ -2,7 +2,7 @@ import {
   DisconnectReason,
   useMultiFileAuthState,
 } from "@whiskeysockets/baileys"
-import makeWASocket from "@whiskeysockets/baileys"
+import { makeWASocket } from "@whiskeysockets/baileys"
 import type { Logger } from "pino"
 // @ts-ignore qrcode-terminal ships without bundled types in some installs.
 import qrcode from "qrcode-terminal"
